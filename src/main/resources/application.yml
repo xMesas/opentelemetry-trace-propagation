@@ -1,0 +1,8 @@
+server:
+  port: 8080
+
+otel:
+  service-name: opentelemetry-trace-propagation
+  exporter:
+    otlp:
+      endpoint: http://localhost:4317
